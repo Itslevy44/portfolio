@@ -6,19 +6,28 @@ function Skills() {
     {
       title: 'Frontend Development',
       skills: [
-        { name: 'React', percentage: 90 },
-        { name: 'Vue.js', percentage: 80 },
-        { name: 'HTML/CSS', percentage: 95 },
-        { name: 'JavaScript', percentage: 90 }
+        { name: 'React / React Native', percentage: 90 },
+        { name: 'JavaScript / TypeScript', percentage: 85 },
+        { name: 'HTML / CSS', percentage: 95 },
+        { name: 'Tailwind CSS', percentage: 88 }
       ]
     },
     {
-      title: 'Backend & Database',
+      title: 'Backend Development',
       skills: [
-        { name: 'Node.js', percentage: 85 },
-        { name: 'Express', percentage: 80 },
-        { name: 'MongoDB', percentage: 75 },
-        { name: 'PostgreSQL', percentage: 70 }
+        { name: 'Django', percentage: 85 },
+        { name: 'PHP / Laravel', percentage: 80 },
+        { name: 'Node.js', percentage: 75 },
+        { name: 'Database Design', percentage: 82 }
+      ]
+    },
+    {
+      title: 'Tools & Design',
+      skills: [
+        { name: 'Git / Version Control', percentage: 90 },
+        { name: 'Logo Design', percentage: 85 },
+        { name: 'UI/UX Design', percentage: 78 },
+        { name: 'Project Management', percentage: 80 }
       ]
     }
   ];

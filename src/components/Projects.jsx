@@ -4,19 +4,60 @@ import './Projects.css';
 function Projects() {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-featured online store with payment gateway integration, user authentication, and inventory management.',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe']
+      title: 'Janalisu',
+      description: 'A comprehensive web-based system developed for organizational management, featuring modern UI/UX design and robust backend architecture.',
+      tags: ['JavaScript', 'PHP', 'MySQL'],
+      link: 'https://janalisu.co.ke/',
+      cta: 'View Live Site →'
     },
     {
-      title: 'HealthCare Dashboard',
-      description: 'An intuitive dashboard for healthcare professionals to manage patient records and appointments securely.',
-      tags: ['Vue', 'Express', 'PostgreSQL']
+      title: 'Bizpoa POS',
+      description: 'Multi-tenant Point of Sale system with advanced inventory management, real-time analytics, and scalable architecture for growing businesses.',
+      tags: ['PHP', 'MySQL', 'JavaScript'],
+      link: 'https://bizpoa.co.ke/',
+      cta: 'Explore System →'
     },
     {
-      title: 'Real Estate App',
-      description: 'A property listing application featuring interactive maps, advanced search filters, and virtual tours.',
-      tags: ['Next.js', 'Tailwind', 'Firebase']
+      title: 'Offline Notes App',
+      description: 'Cross-platform mobile application with offline-first architecture, seamless sync capabilities, and intuitive note-taking experience.',
+      tags: ['React Native', 'Firebase'],
+      link: '#',
+      cta: 'Download APK'
+    },
+    {
+      title: 'Eujim Job Portal',
+      description: "Job portal connecting Eujim Academy graduates with potential employers",
+      tags: ['React', 'MySQL', 'Django'],
+      link: 'https://eujimsolutions.com/',
+      cta: 'Explore System →'
+    },
+    {
+      title: 'Faida Agriventure Limited',
+      description: 'An ecommerce system for Faida Agriventure Limited that handles dairy farming operations and online course content.',
+      tags: ['PHP', 'MySQL', 'JavaScript'],
+      link: 'https://kilimofaidatv.com/',
+      cta: 'Explore System →'
+    },
+    {
+      title: 'Ukilima Bora Farm Management System',
+      description: 'A farm management system to help farmers manage inventory, crops, and livestock within their farms.',
+      tags: ['Laravel', 'MySQL', 'React'],
+      link: 'https://ukulimabora.co.ke/',
+      cta: 'Explore System →'
+    },
+    {
+      title: 'Apex Pay',
+      description: 'A fintech platform offering payment APIs and integrations for developers.',
+      tags: ['Laravel', 'MySQL', 'React'],
+      link: 'https://apexpay.com/',
+      cta: 'Explore System →'
+    },
+    {
+      title: 'Farmken Limited',
+      description: 'An ecommerce site for Farmken Limited to sell certified potato seeds directly to farmers.',
+      tags: ['PHP', 'MySQL', 'JavaScript'],
+      link: 'https://farmkenseeds.com/',
+      cta: 'Explore System →'
     }
   ];
 
@@ -39,7 +80,7 @@ function Projects() {
                   <span className="tag" key={i}>{tag}</span>
                 ))}
               </div>
-              <a href="#" className="project-link">View Details &rarr;</a>
+              <a href={project.link || '#'} className="project-link" target="_blank" rel="noreferrer">{project.cta || 'View Details →'}</a>
             </div>
           ))}
         </div>

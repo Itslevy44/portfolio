@@ -18,6 +18,9 @@ function Footer() {
             <a href="#" className="footer-social">LI</a>
             <a href="#" className="footer-social">TW</a>
           </div>
+          <p className="footer-desc">
+            Also designed by <a href="https://techrift-system.vercel.app/" target="_blank" rel="noreferrer">Techrift Software Solutions</a>
+          </p>
           <p className="footer-copy">
             &copy; {new Date().getFullYear()} Levy Kiprotich. All rights reserved.
           </p>
