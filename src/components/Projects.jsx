@@ -58,6 +58,13 @@ function Projects() {
       tags: ['PHP', 'MySQL', 'JavaScript'],
       link: 'https://farmkenseeds.com/',
       cta: 'Explore System →'
+    },
+    {
+      title: 'StudyPal',
+      description: 'Kenya\'s #1 student study resource platform. Access thousands of past exam papers from top universities, browse freely, and purchase securely via M-Pesa.',
+      tags: ['Next.js', 'Supabase', 'M-Pesa'],
+      link: 'https://studypal-rust.vercel.app/',
+      cta: 'View Live Site →'
     }
   ];
 

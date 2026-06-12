@@ -14,8 +14,8 @@ function Footer() {
             Building modern web experiences. Feel free to connect with me.
           </p>
           <div className="footer-socials">
-            <a href="#" className="footer-social">GH</a>
-            <a href="#" className="footer-social">LI</a>
+            <a href="https://github.com/Itslevy44" className="footer-social" target="_blank" rel="noreferrer">GH</a>
+            <a href="https://www.linkedin.com/in/levy-kiprotich-2b478534a/" className="footer-social" target="_blank" rel="noreferrer">LI</a>
             <a href="#" className="footer-social">TW</a>
           </div>
           <p className="footer-desc">
